@@ -33,5 +33,13 @@ namespace BankingKata.UnitTests
 
 			Assert.Equal(-(amount1 + amount2), account.Balance);
 		}
+
+		[Fact]
+		public void AccountShould_NotAllowNegativeWitdraws()
+		{
+			Account account = new Account();
+
+			Assert.Throws<ArgumentException>(() => account.Withdraw(-100));
+		}
 	}
 }

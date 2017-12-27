@@ -18,6 +18,11 @@ namespace BankingKata
 
 		public void Withdraw(int amount)
 		{
+			if (amount < 0)
+			{
+				throw new ArgumentException();
+			}
+
 			Balance -= amount;
 		}
 	}
