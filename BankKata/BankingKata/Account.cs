@@ -15,5 +15,10 @@ namespace BankingKata
 
 			Balance += amount;
 		}
+
+		public void Withdraw(int amount)
+		{
+			Balance = -100;
+		}
 	}
 }

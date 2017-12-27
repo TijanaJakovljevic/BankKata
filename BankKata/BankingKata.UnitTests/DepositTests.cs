@@ -37,6 +37,5 @@ namespace BankingKata.UnitTests
 
 			Assert.Throws<ArgumentException>(() => account.Deposit(-100));
 		}
-
 	}
 }
