@@ -1,10 +1,15 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.Design;
+using System.Linq;
 
 namespace BankingKata
 {
 	public class Account
 	{
-		public int Balance { get; private set; }
+		private readonly List<Transaction> _transactions = new List<Transaction>();
+
+		public int Balance => _transactions.Any() ? _transactions.Last().NewBalance : 0;
 
 		public void Deposit(int amount)
 		{
@@ -13,7 +18,8 @@ namespace BankingKata
 				throw new ArgumentException();
 			}
 
-			Balance += amount;
+			int oldBalance = _transactions.Any() ? _transactions.Last().NewBalance : 0;
+			_transactions.Add(new Transaction(DateTime.Today, oldBalance, oldBalance + amount));
 		}
 
 		public void Withdraw(int amount)
@@ -23,7 +29,8 @@ namespace BankingKata
 				throw new ArgumentException();
 			}
 
-			Balance -= amount;
+			int oldBalance = _transactions.Any() ? _transactions.Last().NewBalance : 0;
+			_transactions.Add(new Transaction(DateTime.Today, oldBalance, oldBalance - amount));
 		}
 
 		public string PrintStatement()
