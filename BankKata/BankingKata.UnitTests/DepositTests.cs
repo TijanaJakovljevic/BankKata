@@ -1,4 +1,5 @@
-﻿using Xunit;
+﻿using System;
+using Xunit;
 
 namespace BankingKata.UnitTests
 {
@@ -28,5 +29,14 @@ namespace BankingKata.UnitTests
 
 			Assert.Equal(amount1 + amount2, account.Balance);
 		}
+
+		[Fact]
+		public void AccountShould_NotAllowNegativeDeposits()
+		{
+			Account account = new Account();
+
+			Assert.Throws<ArgumentException>(() => account.Deposit(-100));
+		}
+
 	}
 }

@@ -1,4 +1,6 @@
-﻿namespace BankingKata
+﻿using System;
+
+namespace BankingKata
 {
 	public class Account
 	{
@@ -6,6 +8,11 @@
 
 		public void Deposit(int amount)
 		{
+			if (amount < 0)
+			{
+				throw new ArgumentException();
+			}
+
 			Balance += amount;
 		}
 	}
