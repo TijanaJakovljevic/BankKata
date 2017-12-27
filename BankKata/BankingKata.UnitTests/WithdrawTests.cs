@@ -9,14 +9,16 @@ namespace BankingKata.UnitTests
 {
 	public class WithdrawTests
 	{
-		[Fact]
-		public void AccountShould_HaveBalanceDecreasedBy100_WhenYouWithdraw100()
+		[Theory]
+		[InlineData(100)]
+		[InlineData(200)]
+		public void AccountShould_HaveBalanceDecreasedByAmount_WhenYouWithdrawAmount(int amount)
 		{
 			Account account = new Account();
 
-			account.Withdraw(100);
+			account.Withdraw(amount);
 
-			Assert.Equal(-100, account.Balance);
+			Assert.Equal(-amount, account.Balance);
 		}
 	}
 }
