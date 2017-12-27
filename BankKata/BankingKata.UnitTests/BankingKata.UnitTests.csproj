@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="AccountTests.cs" />
     <Compile Include="DepositTests.cs" />
+    <Compile Include="PrintStatementTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WithdrawTests.cs" />
   </ItemGroup>
