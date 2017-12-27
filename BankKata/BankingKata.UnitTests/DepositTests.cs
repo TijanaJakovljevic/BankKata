@@ -20,7 +20,7 @@ namespace BankingKata.UnitTests
 		[Theory]
 		[InlineData(100, 500)]
 		[InlineData(500, 700)]
-		public void AccountShould_HaveTotalBalance_WhenYouDoMultipleDeposits(int amount1, int amount2)
+		public void AccountShould_HaveBalanceIncreasedByTotalAmount_WhenYouDoMultipleDeposits(int amount1, int amount2)
 		{
 			Account account = new Account();
 
