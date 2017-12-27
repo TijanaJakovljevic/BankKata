@@ -15,3 +15,6 @@ C:\Tijana\ostalo\github\BankKata\BankKata\BankingKata.UnitTests\bin\Debug\xunit.
 C:\Tijana\ostalo\github\BankKata\BankKata\BankingKata.UnitTests\bin\Debug\xunit.execution.desktop.xml
 C:\Tijana\ostalo\github\BankKata\BankKata\BankingKata.UnitTests\obj\Debug\BankingKata.UnitTests.dll
 C:\Tijana\ostalo\github\BankKata\BankKata\BankingKata.UnitTests\obj\Debug\BankingKata.UnitTests.pdb
+C:\Tijana\ostalo\github\BankKata\BankKata\BankingKata.UnitTests\bin\Debug\BankingKata.exe
+C:\Tijana\ostalo\github\BankKata\BankKata\BankingKata.UnitTests\bin\Debug\BankingKata.pdb
+C:\Tijana\ostalo\github\BankKata\BankKata\BankingKata.UnitTests\bin\Debug\BankingKata.exe.config
