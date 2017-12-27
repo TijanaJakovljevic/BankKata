@@ -1,0 +1,7 @@
+C:\Tijana\ostalo\github\BankKata\BankKata\BankingKata\bin\Debug\BankingKata.exe.config
+C:\Tijana\ostalo\github\BankKata\BankKata\BankingKata\bin\Debug\BankingKata.exe
+C:\Tijana\ostalo\github\BankKata\BankKata\BankingKata\bin\Debug\BankingKata.pdb
+C:\Tijana\ostalo\github\BankKata\BankKata\BankingKata\obj\Debug\BankingKata.csprojResolveAssemblyReference.cache
+C:\Tijana\ostalo\github\BankKata\BankKata\BankingKata\obj\Debug\BankingKata.csproj.CoreCompileInputs.cache
+C:\Tijana\ostalo\github\BankKata\BankKata\BankingKata\obj\Debug\BankingKata.exe
+C:\Tijana\ostalo\github\BankKata\BankKata\BankingKata\obj\Debug\BankingKata.pdb

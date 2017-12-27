@@ -1,0 +1,17 @@
+C:\Tijana\ostalo\github\BankKata\BankKata\BankingKata.UnitTests\obj\Debug\BankingKata.UnitTests.csprojResolveAssemblyReference.cache
+C:\Tijana\ostalo\github\BankKata\BankKata\BankingKata.UnitTests\obj\Debug\BankingKata.UnitTests.csproj.CoreCompileInputs.cache
+C:\Tijana\ostalo\github\BankKata\BankKata\BankingKata.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Tijana\ostalo\github\BankKata\BankKata\BankingKata.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Tijana\ostalo\github\BankKata\BankKata\BankingKata.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Tijana\ostalo\github\BankKata\BankKata\BankingKata.UnitTests\bin\Debug\BankingKata.UnitTests.dll
+C:\Tijana\ostalo\github\BankKata\BankKata\BankingKata.UnitTests\bin\Debug\BankingKata.UnitTests.pdb
+C:\Tijana\ostalo\github\BankKata\BankKata\BankingKata.UnitTests\bin\Debug\xunit.abstractions.dll
+C:\Tijana\ostalo\github\BankKata\BankKata\BankingKata.UnitTests\bin\Debug\xunit.assert.dll
+C:\Tijana\ostalo\github\BankKata\BankKata\BankingKata.UnitTests\bin\Debug\xunit.core.dll
+C:\Tijana\ostalo\github\BankKata\BankKata\BankingKata.UnitTests\bin\Debug\xunit.execution.desktop.dll
+C:\Tijana\ostalo\github\BankKata\BankKata\BankingKata.UnitTests\bin\Debug\xunit.abstractions.xml
+C:\Tijana\ostalo\github\BankKata\BankKata\BankingKata.UnitTests\bin\Debug\xunit.assert.xml
+C:\Tijana\ostalo\github\BankKata\BankKata\BankingKata.UnitTests\bin\Debug\xunit.core.xml
+C:\Tijana\ostalo\github\BankKata\BankKata\BankingKata.UnitTests\bin\Debug\xunit.execution.desktop.xml
+C:\Tijana\ostalo\github\BankKata\BankKata\BankingKata.UnitTests\obj\Debug\BankingKata.UnitTests.dll
+C:\Tijana\ostalo\github\BankKata\BankKata\BankingKata.UnitTests\obj\Debug\BankingKata.UnitTests.pdb
