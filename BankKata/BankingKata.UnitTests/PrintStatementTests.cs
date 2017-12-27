@@ -11,15 +11,17 @@ namespace BankingKata.UnitTests
 	{
 		private const string ReportFormat = "Date\t\tAmount\tBalance\n{0}\t\t{1}\t{2}";
 
-		[Fact]
-		public void AccountShould_BeAbleToPrintTransactionsReport()
+		[Theory]
+		[InlineData(100)]
+		[InlineData(300)]
+		public void AccountShould_BeAbleToPrintTransactionsReport(int amount)
 		{
 			Account account = new Account();
 
-			account.Deposit(100);
+			account.Deposit(amount);
 
 			string actualReport = account.PrintStatement();
-			string expectedReport = string.Format(ReportFormat, DateTime.Today.ToString("dd.MM.yyyy"), 100, 100);
+			string expectedReport = string.Format(ReportFormat, DateTime.Today.ToString("dd.MM.yyyy"), amount, amount);
 
 			Assert.Equal(expectedReport, actualReport);
 		}

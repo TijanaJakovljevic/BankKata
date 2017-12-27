@@ -29,7 +29,7 @@ namespace BankingKata
 		public string PrintStatement()
 		{
 			string ReportFormat = "Date\t\tAmount\tBalance\n{0}\t\t{1}\t{2}";
-			return string.Format(ReportFormat, DateTime.Today.ToString("dd.MM.yyyy"), 100, 100);
+			return string.Format(ReportFormat, DateTime.Today.ToString("dd.MM.yyyy"), Balance, Balance);
 		}
 	}
 }
