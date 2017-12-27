@@ -28,7 +28,7 @@ namespace BankingKata.UnitTests
 			Assert.Equal(expectedReport, actualReport);
 		}
 
-		[Fact (Skip = "not implemented yet")]
+		[Fact]
 		public void AccountShould_BeAbleToPrintTransactionsReportForMultipleDeposits()
 		{
 			Account account = new Account();
@@ -39,6 +39,7 @@ namespace BankingKata.UnitTests
 			string actualReport = account.PrintStatement();
 
 			string expectedReport = ReportHeaderFormat;
+
 			expectedReport += "\n" + string.Format(ReportRowFormat, DateTime.Today.ToString("dd.MM.yyyy"), 100, 100);
 			expectedReport += "\n" + string.Format(ReportRowFormat, DateTime.Today.ToString("dd.MM.yyyy"), 200, 300);
 

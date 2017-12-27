@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.Design;
 using System.Linq;
+using System.Text;
 
 namespace BankingKata
 {
@@ -35,8 +35,11 @@ namespace BankingKata
 
 		public string PrintStatement()
 		{
-			string ReportFormat = "Date\t\tAmount\tBalance\n{0}\t\t{1}\t{2}";
-			return string.Format(ReportFormat, DateTime.Today.ToString("dd.MM.yyyy"), Balance, Balance);
+			StringBuilder reportBuilder = new StringBuilder();
+			reportBuilder.Append("Date\t\tAmount\tBalance");
+			_transactions.ForEach(trans => reportBuilder.Append("\n" + trans.Print()));
+
+			return reportBuilder.ToString();
 		}
 	}
 }

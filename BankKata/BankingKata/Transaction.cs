@@ -14,5 +14,10 @@ namespace BankingKata
 			OldBalance = oldBalance;
 			NewBalance = newBalance;
 		}
+
+		public string Print()
+		{
+			return $"{Date:dd.MM.yyyy}\t\t{NewBalance - OldBalance}\t{NewBalance}";
+		}
 	}
 }
