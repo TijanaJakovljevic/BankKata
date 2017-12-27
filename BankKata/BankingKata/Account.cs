@@ -6,7 +6,7 @@
 
 		public void Deposit(int amount)
 		{
-			Balance = amount;
+			Balance += amount;
 		}
 	}
 }

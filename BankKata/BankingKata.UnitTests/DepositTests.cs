@@ -1,5 +1,4 @@
-﻿using System;
-using Xunit;
+﻿using Xunit;
 
 namespace BankingKata.UnitTests
 {
@@ -15,6 +14,19 @@ namespace BankingKata.UnitTests
 			account.Deposit(amount);
 
 			Assert.Equal(amount, account.Balance);
+		}
+
+		[Theory]
+		[InlineData(100, 500)]
+		[InlineData(500, 700)]
+		public void AccountShould_HaveTotalBalance_WhenYouDoMultipleDeposits(int amount1, int amount2)
+		{
+			Account account = new Account();
+
+			account.Deposit(amount1);
+			account.Deposit(amount2);
+
+			Assert.Equal(amount1 + amount2, account.Balance);
 		}
 	}
 }
